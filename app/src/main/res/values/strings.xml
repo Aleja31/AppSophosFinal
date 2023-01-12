@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Bootcamp Sophos</string>
+    <string name="logoSophos">Image Logo Sophos</string>
+    <string name="loginMessage">Ingresa tus datos para acceder</string>
+    <string name="login">Ingresar</string>
+    <string name="fingerPrint">Ingresar con huella</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    // Permission codes
+    <string name="code_camera_permission">100</string>
+    <string name="code_location_permission">101</string>
+    <string name="code_select_photo">102</string>
+    //Default Messages
+    <string name="msg_no_privileges_eng">You do not have privileges, please activate them on configuration</string>
+    <string name="msg_error_choosing_photo_spn">Hubo un error, por favor intente de nuevo</string>
+    <string name="msg_error_taken_photo_eng">There was an error taking the photo, please try again</string>
+    <string name="msg_error_taken_photo_spn">Hubo un error tomando la foto, por favor intente de nuevo</string>
+    //Default Type of documents
+    <string-array name="TypeOfDocument">
+        <item>Tipo de documento</item>
+        <item >CC </item>
+        <item>TI</item>
+        <item>PA</item>
+        <item>CE</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

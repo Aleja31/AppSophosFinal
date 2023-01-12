@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/MenuFragment">
+
+    <fragment
+        android:id="@+id/MenuFragment"
+        android:name="com.example.app_sophos.view.MenuScreenActivity"
+        tools:layout="@layout/menu_screen">
+
+        <action
+            android:id="@+id/action_MenuScreenToSendDocuments"
+            app:destination="@id/SendDocumentsFragment" />
+
+        <action
+            android:id="@+id/action_MenuScreenToViewDocuments"
+            app:destination="@id/ViewDocumentsFragment" />
+
+        <action
+            android:id="@+id/action_MenuScreenToOffice"
+            app:destination="@id/OfficeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SendDocumentsFragment"
+        android:name="com.example.app_sophos.view.SendDocumentsActivity"
+        tools:layout="@layout/send_documents">
+
+        <action
+            android:id="@+id/action_SendDocumentsToMenuScreen"
+            app:destination="@id/MenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ViewDocumentsFragment"
+        android:name="com.example.app_sophos.view.DocumentsActivity"
+        tools:layout="@layout/view_documents">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/MenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/OfficeFragment"
+        android:name="com.example.app_sophos.view.OfficeActivity"
+        tools:layout="@layout/office">
+
+        <action
+            android:id="@+id/action_OfficeToMenuScreen"
+            app:destination="@id/MenuFragment" />
+    </fragment>
+</navigation>

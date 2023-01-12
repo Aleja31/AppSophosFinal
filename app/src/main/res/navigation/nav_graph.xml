@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuScreenActivity2">
+    <activity
+        android:id="@+id/menuScreenActivity2"
+        android:name="com.example.app_sophos.view.MenuScreenActivity"
+        android:label="MenuScreenActivity" />
+    <activity
+        android:id="@+id/sendDocumentsActivity"
+        android:name="com.example.app_sophos.view.SendDocumentsActivity"
+        android:label="SendDocumentsActivity" />
+</navigation>
